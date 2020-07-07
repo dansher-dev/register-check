@@ -1,0 +1,15 @@
+{
+  "0": {
+    "id": "0",
+    "name": "string",
+    "city": "string",
+    "postalCode": "string",
+    "mobilePhone": "string",
+    "email": "string",
+    "clubLogoUrl": "https://png.pngtree.com/element_pic/00/16/07/115783931601b5c.jpg",
+    "sponsorLogoUrl": "https://wonderware.co.uk/wp-content/uploads/2017/10/ww-website-banner.jpg",
+    "language": "string"
+  }
+}
+
+

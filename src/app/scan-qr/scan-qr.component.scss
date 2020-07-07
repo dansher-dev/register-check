@@ -1,0 +1,39 @@
+.scan-qr {
+  background-color: white;
+  border-radius: 35px;
+  padding: 15px;
+  color: black;
+  font-size: 18px;
+  mat-label {
+    color: #D3D3D3;
+  }
+  .scan-field {
+    width: 100%;
+  }
+
+  .scan-container {
+    border-radius: 35px;
+    padding: 0 5px;
+    margin-top: 25px;
+  }
+
+  .scan-buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    button {
+      width: 140px;
+      color: white;
+      background-color: #C4C4C4;
+      border: none;
+      text-transform: uppercase;
+      border-radius: 15px;
+      padding: 15px 10px;
+      &:nth-child(2) {
+        background-color: #00A3FF;
+        border: 5px solid #FFD600;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,28 @@
+<div class="confirm-info container">
+  <div class="confirm-info__title">
+    {{ "REGISTERTERMS.COMPLETE" | translate }}
+  </div>
+  <div class="confirm-info__subtitle">
+    {{ "REGISTERTERMS.MOBILENEEDED" | translate }}
+  </div>
+  <div class="confirm-checkbox">
+    <!--<input type="checkbox" id="accuracy" name="accuracy" [(ngModel)]="confirmAccuracy">-->
+    <mat-checkbox [(ngModel)]="confirmAccuracy"></mat-checkbox>
+    <label>{{ "REGISTERTERMS.ACCURACY" | translate}}</label>
+  </div>
+  <div class="confirm-checkbox">
+    <!--<input type="checkbox" id="allow" name="allow" [(ngModel)]="allowUsage">-->
+    <mat-checkbox [(ngModel)]="allowUsage"></mat-checkbox>
+    <div (click)="showPopUp = !showPopUp">{{ "REGISTERTERMS.ALLOW" | translate }}</div>
+  </div>
+  <button class="confirm-info__button" (click)="onStart()">
+    {{ "REGISTERTERMS.START" | translate }}
+  </button>
+  <div class="confirm-info__description" *ngIf="showPopUp">
+    <div class="confirm-info__description-title">
+      {{ 'REGISTERTERMS.WHATHAPPENS' | translate }}
+    </div>
+    <div [innerHTML]="'REGISTERTERMS.DESCRIPTION' | translate" class="confirm-info__description-content">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+{
+  "ENTRY": {
+    "WELCOME": "Willkommen!",
+    "WHATTODO": "Was möchtest Sie tun?",
+    "GUEST": "Ich bin Gast",
+    "GUESTDESCR": "Ich bin ein Gast und möchte mich registrieren",
+    "ORG": "Ich bin Veranstalter",
+    "ORGDESCR": "Ich bin Veranstalter und möchte die Gästeliste managen"
+  },
+  "MANUAL": {
+    "SCAN": "Scannen Sie den QR Code oder geben Sie den Event Code ein.",
+    "CAMERA": "Kamera",
+    "NEXT": "Weiter",
+    "CANCEL": "Abbrechen"
+  },
+  "REGISTERTERMS": {
+    "COMPLETE": "Vervollständigen Sie Ihre Registrierung ",
+    "MOBILENEEDED": "Die Behörden verlangen die Verifizierung der Gäste für diesen Event. Dafür brauchen wir Ihre Kontaktdaten.",
+    "ACCURACY": "Hiermit bestätige ich die Richtigkeit und Vollständigkeit meiner Angaben ",
+    "ALLOW": "Hiermit bestätige ich, dass meine Daten gesichert abgespeichert warden dürfen*",
+    "WHATHAPPENS": "* Was passiert mit meinen Daten? ",
+    "START": "Start Registrierung",
+    "DESCRIPTION": "Ihre Daten werden in einer Datenbank gesichert hinterlegt. Wird Ihr persönlicher QR Code gescannt, werden Ihre Daten für 2 Wochen für das Contact-Tracing zu dieser Veranstaltung hinzugefügt. Sie werden keine Werbung erhalten und Ihre Daten werden mit aller Vorsicht behandelt. Vielen Dank für Ihr Vertrauen."
+  },
+  "REGISTER": {
+    "MR": "Herr",
+    "MRS": "Frau",
+    "NAME": "Vorname",
+    "SURNAME": "Name",
+    "ZIPCODE": "PLZ",
+    "CITY": "Ort",
+    "EMAIL": "Email",
+    "SEND": "Senden"
+  },
+  "COMPLETED": {
+    "REGISTERCODE": "Hier ist Ihr Registrierungscode",
+    "PRESENT": "Zeigen Sie diesen Code dem Einlasspersonal vor. Diese werden den Code scannen und Sie erhalten eine SMS. Bitte zeigen Sie diese SMS dem Einlasspersonal.",
+    "TAKESCREEN": "Mache einen Screenshot dieses Codes, so können Sie ohne Ihre Daten neu zu erfassen bei dieser Location erneut einchecken."
+  },
+  "READY": {
+    "GETIN": "Fast geschafft! ",
+    "PRESENT": "Zeigen Sie diesen Code dem Einlasspersonal. ",
+    "HAVEFUN": "Wir wünschen Ihnen viel Spass heute!"
+  }
+}

@@ -1,0 +1,55 @@
+.registration {
+  font-size: 18px;
+  select {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ffffff;
+    -webkit-appearance: none;
+    background-position-x: 95%;
+    color: #5B5C60;
+  }
+  button {
+    width: 90%;
+    color: white;
+    margin: 25px auto 0 auto;
+    padding: 15px 10px;
+    font-size: 18px;
+    background: linear-gradient(180deg, #00A3FF 15%, rgba(0, 63, 55, 0.2) 100%);
+    border: 5px solid #FFD600;
+    box-shadow: 0 4px 4px rgba(0, 163, 255, 0.12);
+    border-radius: 3px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .registration__control {
+    margin: 10px 0 0 0;
+    input {
+      width: 100%;
+      padding: 15px;
+      border-radius: 3px;
+      border: none;
+    }
+    &_is-merged {
+      input {
+        width: 48%;
+        margin: 0 0 0 15px;
+      }
+      input:nth-child(1) {
+        margin: 0;
+      }
+    }
+  }
+  .registration__error {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 3px;
+    background-color: rgba(256, 0, 0, 0.3);
+  }
+}

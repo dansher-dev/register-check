@@ -1,0 +1,45 @@
+.confirm-info {
+  color: white;
+  font-size: 14px;
+  .confirm-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    input {
+      background-color: transparent;
+      border-color: white;
+    }
+    label, div {
+      margin-left: 10px;
+    }
+  }
+  .confirm-info__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .confirm-info__subtitle {
+    margin: 25px 0;
+    font-size: 18px;
+  }
+
+  .confirm-info__button {
+    width: 100%;
+    color: white;
+    margin-top: 25px;
+    padding: 15px 10px;
+    font-size: 18px;
+    background: linear-gradient(180deg, #00A3FF 15%, rgba(0, 63, 55, 0.2) 100%);
+    border: 5px solid #FFD600;
+    box-shadow: 0 4px 4px rgba(0, 163, 255, 0.12);
+    border-radius: 3px;
+  }
+
+  .confirm-info__description {
+    margin: 20px;
+    .confirm-info__description-title {
+      font-weight: bold;
+    }
+  }
+}
+

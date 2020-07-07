@@ -1,0 +1,15 @@
+<div class="register">
+  <div class="header">
+    <div *ngIf="!partner; else logo" class="header-logo">Check-in / Out</div>
+    <ng-template #logo>
+      <img *ngIf="partnerLogo" src="{{ partnerLogo }}" alt="">
+    </ng-template>
+  </div>
+  <router-outlet></router-outlet>
+  <div class="language-container">
+    <app-language-change></app-language-change>
+  </div>
+  <div class="partner-sponsor" *ngIf="partner && partnerBanner">
+    <img src="{{ partnerBanner }}" alt="">
+  </div>
+</div>

@@ -1,0 +1,45 @@
+{
+  "ENTRY": {
+    "WELCOME": "Welcome!",
+    "WHATTODO": "What would you like to do?",
+    "GUEST": "I am a guest ",
+    "GUESTDESCR": "I am a guest and I want to register",
+    "ORG": "I am a organizer",
+    "ORGDESCR": "I am staff and want to manage guests"
+  },
+  "MANUAL": {
+    "SCAN": "Scan the QR or enter the event code ",
+    "CAMERA": "Camera",
+    "NEXT": "Next",
+    "CANCEL": "Cancel"
+  },
+  "REGISTERTERMS": {
+    "COMPLETE": "Complete your registration ",
+    "MOBILENEEDED": "In order to check you in the event, we need a valid mobile phone number ",
+    "ACCURACY": "I hereby confirm the accuracy and completeness of my information ",
+    "ALLOW": "I hereby confirm that my data can be saved securely*",
+    "WHATHAPPENS": "* What happens to my data?",
+    "START": "Start Registration ",
+    "DESCRIPTION": "Your data will be saved in a database. When your personal QR code is scanned, your data will be added to this event for 2 weeks for contact tracing.<br>You will not receive any advertising and your data will be handled with caution.<br>Thank you for your trust."
+  },
+  "REGISTER": {
+    "MR": "Mr.",
+    "MRS": "Mrs.",
+    "NAME": "First Name",
+    "SURNAME": "Last Name",
+    "ZIPCODE": "ZIP Code",
+    "CITY": "City",
+    "EMAIL": "Email",
+    "SEND": "Send"
+  },
+  "COMPLETED": {
+    "REGISTERCODE": "Here is your registration code",
+    "PRESENT": "Present this code at the entrance, they will scan it and you will receive an SMS then.",
+    "TAKESCREEN": "Take a screenshot of this code, so if you come back to this location you don’t have to register again."
+  },
+  "READY": {
+    "GETIN": "You are ready to get in! ",
+    "PRESENT": "Present this QR code at the entrance to check-in.",
+    "HAVEFUN": "Have fun tonight!"
+  }
+}

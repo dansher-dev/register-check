@@ -1,0 +1,39 @@
+<div class="registration container">
+  <form (ngSubmit)="onSend()" #formRegister="ngForm" [formGroup]="registerForm">
+    <select name="gender" formControlName="gender">
+      <option value="{{ 'REGISTER.MR' | translate }}">{{ "REGISTER.MR" | translate }}</option>
+      <option value="{{ 'REGISTER.MRS' | translate }}}">{{ "REGISTER.MRS" | translate }}</option>
+    </select>
+    <div class="registration__control registration__control_is-merged">
+      <input type="text" formControlName="name" name="name" placeholder="{{ 'REGISTER.NAME' | translate }}">
+      <input type="text" formControlName="lastName" name="lastName" placeholder="{{ 'REGISTER.SURNAME' | translate }}">
+    </div>
+    <div class="registration__control registration__control_is-merged">
+      <input type="text" formControlName="zipCode" name="zipCode" placeholder="{{ 'REGISTER.ZIPCODE' | translate }}">
+      <input type="text" formControlName="city" name="city" placeholder="{{ 'REGISTER.CITY' | translate }}">
+    </div>
+    <ngx-intl-tel-input
+      [inputId]="'mobile'"
+      [cssClass]="'registration__mobile'"
+      [enableAutoCountrySelect]="true"
+      [enablePlaceholder]="true"
+      [searchCountryFlag]="true"
+      [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
+      [selectFirstCountry]="false"
+      [selectedCountryISO]="selectedCountry"
+      [tooltipField]="TooltipLabel.Name"
+      [phoneValidation]="true"
+      [separateDialCode]="true"
+      name="phone" formControlName="phone">
+    </ngx-intl-tel-input>
+    <div class="registration__control">
+      <input type="text" formControlName="email" name="email" placeholder="{{ 'REGISTER.EMAIL' | translate }}">
+    </div>
+    <div class="registration__error" *ngIf="showError">
+      Make sure all fields filled properly
+    </div>
+    <button>
+      {{ "REGISTER.SEND" | translate }}
+    </button>
+  </form>
+</div>

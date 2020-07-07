@@ -1,0 +1,18 @@
+.qr-code {
+  color: white;
+  font-size: 18px;
+  .qr-code__title {
+    margin: 0 0 15px 0;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .qr-code__container {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .qr-code__farewell {
+    text-align: left;
+    margin-left: 5px;
+  }
+}

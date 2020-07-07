@@ -1,0 +1,12 @@
+<div class="qr-code container">
+  <div class="qr-code__title">
+    {{ title | translate }}
+  </div>
+  <div class="qr-code__subtitle">{{ subtitle | translate }}</div>
+  <div class="qr-code__container">
+    <qr-code value="{{ qrCode ? qrCode : 'id=' + queryParams.id + '&pc=' + queryParams.pc }}" size="275" errorCorrectionLevel="M"></qr-code>
+  </div>
+  <div class="qr-code__farewell" *ngIf="farewell">
+    {{ farewell | translate }}
+  </div>
+</div>

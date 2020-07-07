@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="scan-qr">
+    <form class="scan-form">
+      <mat-form-field class="scan-field">
+        <mat-label>{{'MANUAL.SCAN' | translate}}</mat-label>
+        <input matInput [formControl]="codeFormControl">
+        <mat-error *ngIf="codeFormControl.hasError('required')">
+          Please enter code
+        </mat-error>
+      </mat-form-field>
+      <div>
+        {{ "MANUAL.CAMERA" | translate }}
+      </div>
+      <div class="scan-container">
+        <zxing-scanner></zxing-scanner>
+      </div>
+      <div class="scan-buttons">
+        <button type="button" routerLink="/">
+          {{ "MANUAL.CANCEL" | translate }}
+        </button>
+        <button (click)="onNext()">
+          {{ "MANUAL.NEXT" | translate }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

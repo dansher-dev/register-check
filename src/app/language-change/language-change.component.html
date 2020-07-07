@@ -1,0 +1,12 @@
+<div class="translate-container">
+  <div class="translate-switch"
+       [ngClass]="{'translate-switch_is-chosen': translate.currentLang === 'en'}"
+       (click)="translate.use('en')">
+    EN
+  </div>
+  <div class="translate-switch"
+       [ngClass]="{'translate-switch_is-chosen': translate.currentLang === 'ger'}"
+       (click)="translate.use('ger')">
+    DE
+  </div>
+</div>
